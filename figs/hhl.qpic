@@ -1,0 +1,24 @@
+MIXGATES 0
+a W a~|0\rangle |1\rangle
+b W b~|0\rangle |x\rangle
+c W c~|0\rangle |0\rangle
+
+a / 1
+b / n
+c / m
+
+b G $U_b$ width=15
+c TOUCH
+c H
+b G $e^{iAt}$ c width=22
+c G $IQFT$ width=32
+a G $R(\lambda^{-1})$ c width=34
+a M
+c G $QFT$ width=27
+b G $e^{-iAt}$ c width=27
+c H
+
+b c @ 2 4 color=black style=dotted %% $QPE$
+b c @ 7 9 color=black style=dotted %% $IQPE$
+
+DEPTHPAD 10
