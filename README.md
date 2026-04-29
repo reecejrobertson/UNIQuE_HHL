@@ -1,7 +1,7 @@
 # UNIQuE HHL
 
 This repository contains an **emulated implementation of the Harrow-Hassidim-Lloyd quantum algorithm**.
-A complete description of the algorithm can be found in the paper associated with this project: [link forthcoming].
+A complete description of the algorithm can be found in the paper associated with this project: [arxiv:2604.25148](https://arxiv.org/abs/2604.25148).
 
 ## Table of Contents
 
